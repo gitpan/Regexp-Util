@@ -22,7 +22,7 @@ my $meta = {
                         test => { requires => { "Test::More" => 0.92 } },
                       },
   "provides"       => {
-                        "Regexp::Util" => { file => "lib/Regexp/Util.pm", version => 0.001 },
+                        "Regexp::Util" => { file => "lib/Regexp/Util.pm", version => 0.002 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -36,7 +36,7 @@ my $meta = {
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/Regexp-Util/project",
                       },
-  "version"        => 0.001,
+  "version"        => 0.002,
 };
 
 my %dynamic_config;

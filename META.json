@@ -45,7 +45,7 @@
    "provides" : {
       "Regexp::Util" : {
          "file" : "lib/Regexp/Util.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -64,5 +64,5 @@
          "web" : "https://github.com/tobyink/p5-regexp-util"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }

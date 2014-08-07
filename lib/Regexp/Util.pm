@@ -5,7 +5,7 @@ use warnings;
 package Regexp::Util;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001';
+our $VERSION   = '0.002';
 
 require XSLoader;
 XSLoader::load(__PACKAGE__, $VERSION);
@@ -19,7 +19,6 @@ our @EXPORT_OK = qw(
 	is_regexp
 	regexp_seen_evals
 	regexp_is_foreign
-	regexp_is_anchored
 	serialize_regexp
 	deserialize_regexp
 );
@@ -171,7 +170,8 @@ L<re>.
 
 Other util modules:
 L<Scalar::Util>,
-L<List::Util>.
+L<List::Util>,
+L<Hash::Util>.
 
 =head1 AUTHOR
 

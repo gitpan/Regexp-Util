@@ -47,7 +47,7 @@ BUGS
 SEE ALSO
     More regexp stuff: re.
 
-    Other util modules: Scalar::Util, List::Util.
+    Other util modules: Scalar::Util, List::Util, Hash::Util.
 
 AUTHOR
     Toby Inkster <tobyink@cpan.org>.
