@@ -5,9 +5,9 @@ my $EUMM = eval( $ExtUtils::MakeMaker::VERSION );
 
 my $meta = {
   "abstract"       => "A selection of general-utility regexp subroutines",
-  "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>", "unknown"],
+  "author"         => ["Toby Inkster (TOBYINK) <tobyink\@cpan.org>"],
   "dynamic_config" => 1,
-  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.016, CPAN::Meta::Converter version 2.140640",
+  "generated_by"   => "Dist::Inkt::Profile::TOBYINK version 0.021, CPAN::Meta::Converter version 2.140640",
   "keywords"       => [],
   "license"        => ["perl_5"],
   "meta-spec"      => {
@@ -22,7 +22,7 @@ my $meta = {
                         test => { requires => { "Test::More" => 0.92 } },
                       },
   "provides"       => {
-                        "Regexp::Util" => { file => "lib/Regexp/Util.pm", version => 0.002 },
+                        "Regexp::Util" => { file => "lib/Regexp/Util.pm", version => 0.003 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -34,9 +34,9 @@ my $meta = {
                                           url  => "git://github.com/tobyink/p5-regexp-util.git",
                                           web  => "https://github.com/tobyink/p5-regexp-util",
                                         },
-                        X_identifier => "http://purl.org/NET/cpan-uri/dist/Regexp-Util/project",
+                        x_identifier => "http://purl.org/NET/cpan-uri/dist/Regexp-Util/project",
                       },
-  "version"        => 0.002,
+  "version"        => 0.003,
 };
 
 my %dynamic_config;
